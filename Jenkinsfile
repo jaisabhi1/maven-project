@@ -11,17 +11,6 @@ pipeline {
             }
         }
 
-        stage ('exporting maven Environment variable') {
-
-            steps {
-             
-                    sh 'export M2_HOME=/opt/maven'
-                    sh 'export M2_HOME=/opt/maven'
-                
-            }
-        }
-
-
         stage ('maven version') {
             steps {
                
